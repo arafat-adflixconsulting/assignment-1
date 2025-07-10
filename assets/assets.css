@@ -170,3 +170,47 @@ nav .signup-button{
     font-weight: 400px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+.focus-better-section{
+    background-color:rgba(78, 71, 255, 0.1);
+    width: 1140px;
+    height: 697px;
+    border-radius: 14px;
+    margin: 120px auto;
+    justify-items: center;
+}
+
+.focus-better-content h1{
+    font-size: 50px;
+    font-weight: 700px;
+    text-align: center;
+    padding-top: 71px;
+}
+
+.focus-better-content p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.focus-better-content button{
+    color: white;
+    font-size: 16px;
+    font-weight: 700px;
+    height: 48px;
+    width: 229px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 472px;
+    margin-right: 472px;
+}
+
+.focus-better-section .big-image{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    justify-items: center;
+
+}
