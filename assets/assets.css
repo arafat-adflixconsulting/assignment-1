@@ -1,0 +1,49 @@
+/* - - - Website font - - - */
+.raleway-normal> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.inter-normal> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* - - - shared CSS - - -  */
+*{
+    margin: 0 auto;
+}
+
+.primary-color {
+    color: #4E47FF;
+}
+
+/* Nav Section */
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+nav .web-logo {
+    font-size: 34px;
+
+}
+nav .signup-button{
+    font-size: 16px;
+    font-weight: 700px;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+
+
+}
