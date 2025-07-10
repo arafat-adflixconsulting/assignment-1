@@ -44,6 +44,80 @@ nav .signup-button{
     color: #FFFFFF;
     background-color: #4E47FF;
     border: none;
+}
 
+.banner-section{
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 698px;
+    max-width: 1440px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight:700px ;
+    margin: 0;
+}
+
+.focus-button{
+    color: white;
+    font-size: 16px;
+    font-weight: 700px;
+    height: 48px;
+    width: 174px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    margin-top: 37px;
+}
+/* - - - Action Section - - -  */
+.action-section{
+    display: flex;
+    width: 1140px;
+    margin-top: 116px;
+    margin-right: 160px;
+    margin-left: 140px;
+    margin-bottom: 116px;
+    margin: 0 auto;
+    gap: 220px;
+
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight:700px;
+    color: #252432;
+    margin-bottom: 23px;
+
+}
+
+.action-description{
+    font-size: 24px;
+    font-weight:400px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action-button{
+    color: white;
+    font-size: 16px;
+    font-weight: 700px;
+    height: 48px;
+    width: 229px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    margin-top: 37px;
+    margin-bottom: 62px;
+}
+
+.action-image img{
+    border-radius: 48px;
+    height: 328px;
+    width: 403px;
 
 }
