@@ -13,30 +13,43 @@
 
 
 /* - - - shared CSS - - -  */
-* {
+/* * {
     margin: 0 auto;
-}
+} */
 
 .primary-color {
     color: #4E47FF;
 }
 
-/* Nav Section */
-.nav-section {
+header {
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 698px;
+}
+
+.nav-menu {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.logo h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4E47FF;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
 
 }
 
-nav .web-logo {
-    font-size: 34px;
-
-}
-
-nav .signup-button {
+nav button {
     font-size: 16px;
     font-weight: 700px;
     width: 132px;
@@ -47,25 +60,25 @@ nav .signup-button {
     border: none;
 }
 
-.banner-section {
-    background-image: url('../assets/Hero-bg.png');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+nav button:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.banner-content{
     text-align: center;
-    height: 698px;
-    max-width: 1440px;
+    margin-top: 309px;
+    margin-bottom: 237px;
+    margin-right: 267px;
+    margin-left: 267px;
 }
 
-.banner-title {
-    font-size: 65px;
-    font-weight: 700px;
-    margin: 0;
+.banner-content a {
+    text-decoration: none;
+    color: white;
 }
 
-.focus-button {
+.banner-content button {
     color: white;
     font-size: 16px;
     font-weight: 700px;
@@ -75,16 +88,22 @@ nav .signup-button {
     border: none;
     background-color: #4E47FF;
     margin-top: 37px;
+
+}
+
+.banner-content button:hover{
+    background-color: #04AA6D;
+    color: white;
 }
 
 /* - - - Action Section - - -  */
 .action-section {
     display: flex;
     width: 1140px;
-    margin-top: 116px;
-    margin-right: 160px;
-    margin-left: 140px;
-    margin-bottom: 116px;
+    padding-top: 116px;
+    padding-right: 160px;
+    padding-left: 140px;
+    padding-bottom: 116px;
     margin: 0 auto;
     gap: 220px;
 
@@ -116,6 +135,11 @@ nav .signup-button {
     background-color: #4E47FF;
     margin-top: 37px;
     margin-bottom: 62px;
+}
+
+.action-button:hover {
+    background-color: #04AA6D;
+    color: white;
 }
 
 .action-image img {
@@ -212,6 +236,11 @@ nav .signup-button {
     margin-right: 472px;
 }
 
+.focus-better-content button:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
 .focus-better-section .big-image {
     width: 840px;
     height: 365px;
@@ -267,7 +296,7 @@ section .form-section {
     border-radius: 10px;
 }
 
-.form-section button{
+.form-section button {
     color: white;
     font-size: 16px;
     font-weight: 700px;
@@ -283,8 +312,14 @@ section .form-section {
     text-align: center;
 }
 
+.form-section button:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
 /* - - - Footer Section - - -  */
-footer{
+footer {
     margin: 0 auto;
     padding-top: 104px;
     padding-bottom: 104px;
@@ -293,24 +328,26 @@ footer{
     justify-items: center;
 }
 
-footer h1{
+footer h1 {
     font-size: 100px;
-    font-weight:900px ;
+    font-weight: 900px;
     color: #4E47FF;
 }
 
-footer p{
-    color:#8987A1 ;
+footer p {
+    color: #8987A1;
     padding-bottom: 20px;
 }
 
-footer ul{
+footer ul {
     display: flex;
     justify-items: center;
     justify-content: space-around;
     list-style: none;
     gap: 50px;
 }
-footer ul a{
+
+footer ul a {
     text-decoration: none;
+    color: black;
 }
