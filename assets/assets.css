@@ -13,7 +13,7 @@
 
 
 /* - - - shared CSS - - -  */
-*{
+* {
     margin: 0 auto;
 }
 
@@ -35,7 +35,8 @@ nav .web-logo {
     font-size: 34px;
 
 }
-nav .signup-button{
+
+nav .signup-button {
     font-size: 16px;
     font-weight: 700px;
     width: 132px;
@@ -46,7 +47,7 @@ nav .signup-button{
     border: none;
 }
 
-.banner-section{
+.banner-section {
     background-image: url('../assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
@@ -57,13 +58,14 @@ nav .signup-button{
     height: 698px;
     max-width: 1440px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 65px;
-    font-weight:700px ;
+    font-weight: 700px;
     margin: 0;
 }
 
-.focus-button{
+.focus-button {
     color: white;
     font-size: 16px;
     font-weight: 700px;
@@ -74,8 +76,9 @@ nav .signup-button{
     background-color: #4E47FF;
     margin-top: 37px;
 }
+
 /* - - - Action Section - - -  */
-.action-section{
+.action-section {
     display: flex;
     width: 1140px;
     margin-top: 116px;
@@ -87,22 +90,22 @@ nav .signup-button{
 
 }
 
-.action-title{
+.action-title {
     font-size: 42px;
-    font-weight:700px;
+    font-weight: 700px;
     color: #252432;
     margin-bottom: 23px;
 
 }
 
-.action-description{
+.action-description {
     font-size: 24px;
-    font-weight:400px;
+    font-weight: 400px;
     color: #252432;
     margin-bottom: 23px;
 }
 
-.action-button{
+.action-button {
     color: white;
     font-size: 16px;
     font-weight: 700px;
@@ -115,15 +118,15 @@ nav .signup-button{
     margin-bottom: 62px;
 }
 
-.action-image img{
+.action-image img {
     border-radius: 48px;
     height: 328px;
     width: 403px;
 
 }
 
-.productive-section{
-    background-color:rgba(78, 71, 255, 0.1);
+.productive-section {
+    background-color: rgba(78, 71, 255, 0.1);
     width: 1140px;
     height: 306px;
     border-radius: 24px;
@@ -136,14 +139,14 @@ nav .signup-button{
     position: absolute; */
 }
 
-.productive-content{
+.productive-content {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left:142px;
+    margin-left: 142px;
     margin-right: 142px;
 }
 
-.productive-title{
+.productive-title {
     font-size: 38px;
     font-weight: 700px;
     color: #252432;
@@ -153,26 +156,28 @@ nav .signup-button{
 
 }
 
-.productive-data{
+.productive-data {
     display: flex;
     gap: 158px;
     justify-content: space-around;
 }
 
-.productive-data h1{
+.productive-data h1 {
     font-size: 80px;
     font-weight: 700px;
     color: #4E47FF;
 }
 
-.productive-data p{
+.productive-data p {
     font-size: 20px;
     font-weight: 400px;
     color: rgba(0, 0, 0, 0.5);
 }
 
-.focus-better-section{
-    background-color:rgba(78, 71, 255, 0.1);
+/* - - - Focus better section - - -  */
+
+.focus-better-section {
+    background-color: rgba(78, 71, 255, 0.1);
     width: 1140px;
     height: 697px;
     border-radius: 14px;
@@ -180,19 +185,19 @@ nav .signup-button{
     justify-items: center;
 }
 
-.focus-better-content h1{
+.focus-better-content h1 {
     font-size: 50px;
     font-weight: 700px;
     text-align: center;
     padding-top: 71px;
 }
 
-.focus-better-content p{
+.focus-better-content p {
     text-align: center;
     margin-top: 20px;
 }
 
-.focus-better-content button{
+.focus-better-content button {
     color: white;
     font-size: 16px;
     font-weight: 700px;
@@ -207,10 +212,73 @@ nav .signup-button{
     margin-right: 472px;
 }
 
-.focus-better-section .big-image{
+.focus-better-section .big-image {
     width: 840px;
     height: 365px;
     border-radius: 48px;
     justify-items: center;
 
+}
+
+/* - - - Form Section - - -  */
+
+section .form-section {
+    display: flex;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 120px auto;
+    gap: 115px;
+    justify-items: center;
+    height: 632px;
+    max-width: 1140px;
+    border-radius: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+
+.get-in-touch {
+    font-size: 97px;
+    font-weight: 700px;
+    color: #000000;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.form-field-section input {
+    height: 55px;
+    width: 497px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 19px;
+
+}
+
+.form-field-section legend {
+    font-size: 18px;
+    font-family: 500px;
+}
+
+.form-field-section textarea {
+    height: 167px;
+    width: 497;
+    border-radius: 10px;
+}
+
+.form-section button{
+    color: white;
+    font-size: 16px;
+    font-weight: 700px;
+    height: 62px;
+    max-width: 497pxpx;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 225px;
+    padding-right: 225px;
+    text-align: center;
 }
